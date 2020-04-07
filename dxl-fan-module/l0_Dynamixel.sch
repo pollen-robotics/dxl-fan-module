@@ -550,28 +550,6 @@ F 5 "?" H 4750 3300 50  0001 C CNN "CodeCommande"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J3
-U 1 1 5E8F6A66
-P 4010 2870
-F 0 "J3" H 3982 2752 50  0000 R CNN
-F 1 "fan1 + -" H 3982 2843 50  0000 R CNN
-F 2 "Common_Footprint:BAT_WIRE" H 4010 2870 50  0001 C CNN
-F 3 "~" H 4010 2870 50  0001 C CNN
-	1    4010 2870
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J4
-U 1 1 5E8FD5B2
-P 5120 2880
-F 0 "J4" H 5092 2762 50  0000 R CNN
-F 1 "fan2 + -" H 5092 2853 50  0000 R CNN
-F 2 "Common_Footprint:BAT_WIRE" H 5120 2880 50  0001 C CNN
-F 3 "~" H 5120 2880 50  0001 C CNN
-	1    5120 2880
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR0104
 U 1 1 5E91572D
 P 6070 3290
@@ -598,17 +576,6 @@ F 4 "?" H 5800 3210 50  0001 C CNN "Fournisseur"
 F 5 "?" H 5900 3310 50  0001 C CNN "CodeCommande"
 	1    5670 3090
 	0    1    1    0   
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J5
-U 1 1 5E915743
-P 6270 2890
-F 0 "J5" H 6242 2772 50  0000 R CNN
-F 1 "fan3 + -" H 6242 2863 50  0000 R CNN
-F 2 "Common_Footprint:BAT_WIRE" H 6270 2890 50  0001 C CNN
-F 3 "~" H 6270 2890 50  0001 C CNN
-	1    6270 2890
-	-1   0    0    1   
 $EndComp
 Text Label 1050 1200 2    50   ~ 0
 fan_3
@@ -642,42 +609,69 @@ F 3 "" H 3470 1860 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Common_Lib:NMOS_DGS Q3
-U 1 1 5E920118
-P 5970 3090
-F 0 "Q3" H 6176 3227 50  0000 L CNN
-F 1 "NMOS_DGS" H 6176 3136 50  0000 L CNN
-F 2 "Common_Footprint:SOT-23" H 6170 3190 50  0001 C CNN
-F 3 "~" H 6170 3140 50  0001 C CNN
-F 4 " " H 6176 3045 50  0000 L CNN "Fournisseur"
-F 5 " " H 6176 2954 50  0000 L CNN "CodeCommande"
-	1    5970 3090
+L Transistor_FET:2N7002 Q1
+U 1 1 5E8CB431
+P 3710 3070
+F 0 "Q1" H 3914 3116 50  0000 L CNN
+F 1 "2N7002" H 3914 3025 50  0000 L CNN
+F 2 "Common_Footprint:SOT-23" H 3910 2995 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3710 3070 50  0001 L CNN
+	1    3710 3070
 	1    0    0    -1  
 $EndComp
 $Comp
-L Common_Lib:NMOS_DGS Q2
-U 1 1 5E91F47E
+L Transistor_FET:2N7002 Q2
+U 1 1 5E8CD2CC
 P 4820 3080
-F 0 "Q2" H 5026 3217 50  0000 L CNN
-F 1 "NMOS_DGS" H 5020 2960 50  0000 L CNN
-F 2 "Common_Footprint:SOT-23" H 5020 3180 50  0001 C CNN
-F 3 "~" H 5020 3130 50  0001 C CNN
-F 4 " " H 5026 3035 50  0000 L CNN "Fournisseur"
-F 5 " " H 5026 2944 50  0000 L CNN "CodeCommande"
+F 0 "Q2" H 5024 3126 50  0000 L CNN
+F 1 "2N7002" H 5024 3035 50  0000 L CNN
+F 2 "Common_Footprint:SOT-23" H 5020 3005 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4820 3080 50  0001 L CNN
 	1    4820 3080
 	1    0    0    -1  
 $EndComp
 $Comp
-L Common_Lib:NMOS_DGS Q1
-U 1 1 5E91E1F9
-P 3710 3070
-F 0 "Q1" H 3916 3207 50  0000 L CNN
-F 1 "NMOS_DGS" H 3900 2960 50  0000 L CNN
-F 2 "Common_Footprint:SOT-23" H 3910 3170 50  0001 C CNN
-F 3 "~" H 3910 3120 50  0001 C CNN
-F 4 " " H 3916 3025 50  0000 L CNN "Fournisseur"
-F 5 " " H 3916 2934 50  0000 L CNN "CodeCommande"
-	1    3710 3070
+L Transistor_FET:2N7002 Q3
+U 1 1 5E8D0DB9
+P 5970 3090
+F 0 "Q3" H 6174 3136 50  0000 L CNN
+F 1 "2N7002" H 6174 3045 50  0000 L CNN
+F 2 "Common_Footprint:SOT-23" H 6170 3015 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5970 3090 50  0001 L CNN
+	1    5970 3090
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5E915743
+P 6270 2890
+F 0 "J5" H 6242 2772 50  0000 R CNN
+F 1 "fan3 + -" H 6242 2863 50  0000 R CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 6270 2890 50  0001 C CNN
+F 3 "~" H 6270 2890 50  0001 C CNN
+	1    6270 2890
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5E8FD5B2
+P 5120 2880
+F 0 "J4" H 5092 2762 50  0000 R CNN
+F 1 "fan2 + -" H 5092 2853 50  0000 R CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 5120 2880 50  0001 C CNN
+F 3 "~" H 5120 2880 50  0001 C CNN
+	1    5120 2880
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5E8F6A66
+P 4010 2870
+F 0 "J3" H 3982 2752 50  0000 R CNN
+F 1 "fan1 + -" H 3982 2843 50  0000 R CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 4010 2870 50  0001 C CNN
+F 3 "~" H 4010 2870 50  0001 C CNN
+	1    4010 2870
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
