@@ -1,4 +1,4 @@
-update=Vendredi 03 avril 2020 à 18:08:05
+update=Wednesday, 08 April 2020 at 13:20:02
 version=1
 last_client=kicad
 [general]
@@ -46,7 +46,8 @@ TrackWidth5=0.3
 TrackWidth6=0.5
 TrackWidth7=0.75
 TrackWidth8=1
-TrackWidth9=2
+TrackWidth9=1.5
+TrackWidth10=2
 ViaDiameter1=0.6
 ViaDrill1=0.3
 ViaDiameter2=0.6
@@ -87,7 +88,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.15
 SolderMaskMinWidth=0.09999999999999999
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

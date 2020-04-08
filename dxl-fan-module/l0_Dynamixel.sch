@@ -647,7 +647,7 @@ U 1 1 5E915743
 P 6270 2890
 F 0 "J5" H 6242 2772 50  0000 R CNN
 F 1 "fan3 + -" H 6242 2863 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 6270 2890 50  0001 C CNN
+F 2 "Common_Footprint:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 6270 2890 50  0001 C CNN
 F 3 "~" H 6270 2890 50  0001 C CNN
 	1    6270 2890
 	-1   0    0    1   
@@ -658,7 +658,7 @@ U 1 1 5E8FD5B2
 P 5120 2880
 F 0 "J4" H 5092 2762 50  0000 R CNN
 F 1 "fan2 + -" H 5092 2853 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 5120 2880 50  0001 C CNN
+F 2 "Common_Footprint:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 5120 2880 50  0001 C CNN
 F 3 "~" H 5120 2880 50  0001 C CNN
 	1    5120 2880
 	-1   0    0    1   
@@ -669,7 +669,7 @@ U 1 1 5E8F6A66
 P 4010 2870
 F 0 "J3" H 3982 2752 50  0000 R CNN
 F 1 "fan1 + -" H 3982 2843 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 4010 2870 50  0001 C CNN
+F 2 "Common_Footprint:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 4010 2870 50  0001 C CNN
 F 3 "~" H 4010 2870 50  0001 C CNN
 	1    4010 2870
 	-1   0    0    1   
