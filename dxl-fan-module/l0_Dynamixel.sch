@@ -348,8 +348,6 @@ F 3 "" H 2000 2050 50  0001 C CNN
 $EndComp
 Text Notes 500  2400 0    50   ~ 10
 Decoupling
-Text Label 2100 1100 0    50   ~ 0
-OverVoltageDetection
 Wire Notes Line
 	475  1475 3050 1475
 $Comp
@@ -587,11 +585,11 @@ L Common_Lib:D_Zener D2
 U 1 1 5E8DE0C6
 P 3470 1710
 F 0 "D2" V 3424 1778 50  0000 L CNN
-F 1 "5v1" V 3515 1778 50  0000 L CNN
-F 2 "Common_Footprint:D_SOD-323" V 3470 1710 50  0001 C CNN
+F 1 "D_Zener" V 3515 1778 50  0000 L CNN
+F 2 "Common_Footprint:D_SOD-323F" V 3470 1710 50  0001 C CNN
 F 3 "~" V 3470 1710 50  0001 C CNN
 F 4 "Farnell" H 3470 1710 50  0001 C CNN "Fournisseur"
-F 5 "2690036" H 3470 1710 50  0001 C CNN "CodeCommande"
+F 5 "2777524" H 3470 1710 50  0001 C CNN "CodeCommande"
 	1    3470 1710
 	0    1    1    0   
 $EndComp
@@ -613,7 +611,7 @@ L Transistor_FET:2N7002 Q1
 U 1 1 5E8CB431
 P 3710 3070
 F 0 "Q1" H 3914 3116 50  0000 L CNN
-F 1 "2N7002" H 3914 3025 50  0000 L CNN
+F 1 "PMV25ENEA" H 3914 3025 50  0000 L CNN
 F 2 "Common_Footprint:SOT-23" H 3910 2995 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3710 3070 50  0001 L CNN
 	1    3710 3070
@@ -624,7 +622,7 @@ L Transistor_FET:2N7002 Q2
 U 1 1 5E8CD2CC
 P 4820 3080
 F 0 "Q2" H 5024 3126 50  0000 L CNN
-F 1 "2N7002" H 5024 3035 50  0000 L CNN
+F 1 "PMV25ENEA" H 5024 3035 50  0000 L CNN
 F 2 "Common_Footprint:SOT-23" H 5020 3005 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4820 3080 50  0001 L CNN
 	1    4820 3080
@@ -635,43 +633,50 @@ L Transistor_FET:2N7002 Q3
 U 1 1 5E8D0DB9
 P 5970 3090
 F 0 "Q3" H 6174 3136 50  0000 L CNN
-F 1 "2N7002" H 6174 3045 50  0000 L CNN
+F 1 "PMV25ENEA" H 6174 3045 50  0000 L CNN
 F 2 "Common_Footprint:SOT-23" H 6170 3015 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5970 3090 50  0001 L CNN
 	1    5970 3090
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2100 1100
 $Comp
-L Connector:Conn_01x02_Male J5
-U 1 1 5E915743
-P 6270 2890
-F 0 "J5" H 6242 2772 50  0000 R CNN
-F 1 "fan3 + -" H 6242 2863 50  0000 R CNN
-F 2 "Common_Footprint:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 6270 2890 50  0001 C CNN
-F 3 "~" H 6270 2890 50  0001 C CNN
-	1    6270 2890
-	-1   0    0    1   
+L Common_Lib:BAT_WIRE Con1
+U 1 1 5E8E0724
+P 3810 2820
+F 0 "Con1" H 4088 2825 50  0000 L CNN
+F 1 "BAT_WIRE" H 3810 2970 50  0001 C CNN
+F 2 "Common_Footprint:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 3710 2920 50  0001 C CNN
+F 3 "?" H 3810 3020 50  0001 C CNN
+F 4 "?" H 3910 3120 50  0001 C CNN "Fournisseur"
+F 5 "?" H 4010 3220 50  0001 C CNN "codeCommande"
+	1    3810 2820
+	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J4
-U 1 1 5E8FD5B2
-P 5120 2880
-F 0 "J4" H 5092 2762 50  0000 R CNN
-F 1 "fan2 + -" H 5092 2853 50  0000 R CNN
-F 2 "Common_Footprint:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 5120 2880 50  0001 C CNN
-F 3 "~" H 5120 2880 50  0001 C CNN
-	1    5120 2880
-	-1   0    0    1   
+L Common_Lib:BAT_WIRE Con2
+U 1 1 5E8E3AB5
+P 4920 2830
+F 0 "Con2" H 5198 2835 50  0000 L CNN
+F 1 "BAT_WIRE" H 4920 2980 50  0001 C CNN
+F 2 "Common_Footprint:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 4820 2930 50  0001 C CNN
+F 3 "?" H 4920 3030 50  0001 C CNN
+F 4 "?" H 5020 3130 50  0001 C CNN "Fournisseur"
+F 5 "?" H 5120 3230 50  0001 C CNN "codeCommande"
+	1    4920 2830
+	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J3
-U 1 1 5E8F6A66
-P 4010 2870
-F 0 "J3" H 3982 2752 50  0000 R CNN
-F 1 "fan1 + -" H 3982 2843 50  0000 R CNN
-F 2 "Common_Footprint:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 4010 2870 50  0001 C CNN
-F 3 "~" H 4010 2870 50  0001 C CNN
-	1    4010 2870
-	-1   0    0    1   
+L Common_Lib:BAT_WIRE Con3
+U 1 1 5E8E42BB
+P 6070 2840
+F 0 "Con3" H 6348 2845 50  0000 L CNN
+F 1 "BAT_WIRE" H 6070 2990 50  0001 C CNN
+F 2 "Common_Footprint:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 5970 2940 50  0001 C CNN
+F 3 "?" H 6070 3040 50  0001 C CNN
+F 4 "?" H 6170 3140 50  0001 C CNN "Fournisseur"
+F 5 "?" H 6270 3240 50  0001 C CNN "codeCommande"
+	1    6070 2840
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
