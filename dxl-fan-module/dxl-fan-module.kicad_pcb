@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.2)
     (user_trace_width 0.15)
     (user_trace_width 0.2)
     (user_trace_width 0.254)
@@ -103,7 +103,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber/assembly/"))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -1884,7 +1884,7 @@
   (segment (start 68.6 73.025) (end 69.15 72.475) (width 1) (layer F.Cu) (net 23))
   (segment (start 68.6 75.575) (end 68.6 73.025) (width 1) (layer F.Cu) (net 23))
 
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5E8DDEAF) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5E8DED0A) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1995,7 +1995,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5E8DED07) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2367,7 +2367,7 @@
       )
     )
   )
-  (zone (net 9) (net_name /V_Robus) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 9) (net_name /V_Robus) (layer B.Cu) (tstamp 5E8DED04) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
