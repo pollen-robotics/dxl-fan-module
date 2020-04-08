@@ -441,10 +441,10 @@ Wire Wire Line
 Text Notes 10600 7650 0    50   ~ 0
 0.2.0\n
 $Comp
-L Common_Lib:R R5
+L Common_Lib:R R3
 U 1 1 5B9A7A07
 P 5300 800
-F 0 "R5" H 5359 846 50  0000 L CNN
+F 0 "R3" H 5359 846 50  0000 L CNN
 F 1 "10K" H 5359 755 50  0000 L CNN
 F 2 "Common_Footprint:R_0402_NoSilk" H 5300 800 50  0001 C CNN
 F 3 "~" H 5300 800 50  0001 C CNN
@@ -522,28 +522,28 @@ Wire Notes Line
 Text Notes 3110 2410 0    50   ~ 10
 Fans Control
 $Comp
-L Common_Lib:R R3
+L Common_Lib:R R4
 U 1 1 5E8DA67F
 P 3410 3070
-F 0 "R3" V 3214 3070 50  0000 C CNN
-F 1 "1k" V 3305 3070 50  0000 C CNN
-F 2 "Common_Footprint:R_0402_NoSilk" H 3410 3070 50  0001 C CNN
+F 0 "R4" V 3214 3070 50  0000 C CNN
+F 1 "0ohm" V 3305 3070 50  0000 C CNN
+F 2 "Common_Footprint:R_0805" H 3410 3070 50  0001 C CNN
 F 3 "~" H 3440 3090 50  0001 C CNN
-F 4 "?" H 3540 3190 50  0001 C CNN "Fournisseur"
-F 5 "?" H 3640 3290 50  0001 C CNN "CodeCommande"
+F 4 "Farnell" H 3540 3190 50  0001 C CNN "Fournisseur"
+F 5 "9233750" H 3640 3290 50  0001 C CNN "CodeCommande"
 	1    3410 3070
 	0    1    1    0   
 $EndComp
 $Comp
-L Common_Lib:R R4
+L Common_Lib:R R5
 U 1 1 5E8DB789
 P 4520 3080
-F 0 "R4" V 4324 3080 50  0000 C CNN
-F 1 "1k" V 4415 3080 50  0000 C CNN
-F 2 "Common_Footprint:R_0402_NoSilk" H 4520 3080 50  0001 C CNN
+F 0 "R5" V 4324 3080 50  0000 C CNN
+F 1 "0ohm" V 4415 3080 50  0000 C CNN
+F 2 "Common_Footprint:R_0805" H 4520 3080 50  0001 C CNN
 F 3 "~" H 4550 3100 50  0001 C CNN
-F 4 "?" H 4650 3200 50  0001 C CNN "Fournisseur"
-F 5 "?" H 4750 3300 50  0001 C CNN "CodeCommande"
+F 4 "Farnell" H 4650 3200 50  0001 C CNN "Fournisseur"
+F 5 "9233750" H 4750 3300 50  0001 C CNN "CodeCommande"
 	1    4520 3080
 	0    1    1    0   
 $EndComp
@@ -567,11 +567,11 @@ L Common_Lib:R R6
 U 1 1 5E915737
 P 5670 3090
 F 0 "R6" V 5474 3090 50  0000 C CNN
-F 1 "1k" V 5565 3090 50  0000 C CNN
-F 2 "Common_Footprint:R_0402_NoSilk" H 5670 3090 50  0001 C CNN
+F 1 "0ohm" V 5565 3090 50  0000 C CNN
+F 2 "Common_Footprint:R_0805" H 5670 3090 50  0001 C CNN
 F 3 "~" H 5700 3110 50  0001 C CNN
-F 4 "?" H 5800 3210 50  0001 C CNN "Fournisseur"
-F 5 "?" H 5900 3310 50  0001 C CNN "CodeCommande"
+F 4 "Farnell" H 5800 3210 50  0001 C CNN "Fournisseur"
+F 5 "9233750" H 5900 3310 50  0001 C CNN "CodeCommande"
 	1    5670 3090
 	0    1    1    0   
 $EndComp
@@ -604,39 +604,6 @@ F 1 "GND" H 3475 1687 50  0000 C CNN
 F 2 "" H 3470 1860 50  0001 C CNN
 F 3 "" H 3470 1860 50  0001 C CNN
 	1    3470 1860
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:2N7002 Q1
-U 1 1 5E8CB431
-P 3710 3070
-F 0 "Q1" H 3914 3116 50  0000 L CNN
-F 1 "PMV25ENEA" H 3914 3025 50  0000 L CNN
-F 2 "Common_Footprint:SOT-23" H 3910 2995 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3710 3070 50  0001 L CNN
-	1    3710 3070
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:2N7002 Q2
-U 1 1 5E8CD2CC
-P 4820 3080
-F 0 "Q2" H 5024 3126 50  0000 L CNN
-F 1 "PMV25ENEA" H 5024 3035 50  0000 L CNN
-F 2 "Common_Footprint:SOT-23" H 5020 3005 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4820 3080 50  0001 L CNN
-	1    4820 3080
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:2N7002 Q3
-U 1 1 5E8D0DB9
-P 5970 3090
-F 0 "Q3" H 6174 3136 50  0000 L CNN
-F 1 "PMV25ENEA" H 6174 3045 50  0000 L CNN
-F 2 "Common_Footprint:SOT-23" H 6170 3015 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5970 3090 50  0001 L CNN
-	1    5970 3090
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2100 1100
@@ -677,6 +644,45 @@ F 3 "?" H 6070 3040 50  0001 C CNN
 F 4 "?" H 6170 3140 50  0001 C CNN "Fournisseur"
 F 5 "?" H 6270 3240 50  0001 C CNN "codeCommande"
 	1    6070 2840
+	1    0    0    -1  
+$EndComp
+$Comp
+L Common_Lib:NMOS_GSD Q1
+U 1 1 5E8E8911
+P 3710 3070
+F 0 "Q1" H 3916 3116 50  0000 L CNN
+F 1 "PMV25ENEA" H 3916 3025 50  0000 L CNN
+F 2 "Common_Footprint:SOT-23" H 3910 3170 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMV25ENEA.pdf" H 3710 3070 50  0001 C CNN
+F 4 "Farnell" H 4010 3220 50  0001 C CNN "Fournisseur"
+F 5 "2628088" H 4110 3320 50  0001 C CNN "CodeCommande"
+	1    3710 3070
+	1    0    0    -1  
+$EndComp
+$Comp
+L Common_Lib:NMOS_GSD Q2
+U 1 1 5E8F01E0
+P 4820 3080
+F 0 "Q2" H 5026 3126 50  0000 L CNN
+F 1 "PMV25ENEA" H 5026 3035 50  0000 L CNN
+F 2 "Common_Footprint:SOT-23" H 5020 3180 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMV25ENEA.pdf" H 4820 3080 50  0001 C CNN
+F 4 "Farnell" H 5120 3230 50  0001 C CNN "Fournisseur"
+F 5 "2628088" H 5220 3330 50  0001 C CNN "CodeCommande"
+	1    4820 3080
+	1    0    0    -1  
+$EndComp
+$Comp
+L Common_Lib:NMOS_GSD Q3
+U 1 1 5E8F143D
+P 5970 3090
+F 0 "Q3" H 6176 3136 50  0000 L CNN
+F 1 "PMV25ENEA" H 6176 3045 50  0000 L CNN
+F 2 "Common_Footprint:SOT-23" H 6170 3190 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMV25ENEA.pdf" H 5970 3090 50  0001 C CNN
+F 4 "Farnell" H 6270 3240 50  0001 C CNN "Fournisseur"
+F 5 "2628088" H 6370 3340 50  0001 C CNN "CodeCommande"
+	1    5970 3090
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
