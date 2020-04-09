@@ -492,7 +492,7 @@ F 3 "" H 3810 3270 50  0001 C CNN
 $EndComp
 Text Label 2100 1000 0    50   ~ 0
 fan_2
-Text Label 3310 3070 2    50   ~ 0
+Text Label 3510 3070 2    50   ~ 0
 fan_1
 Text Label 3810 2770 2    50   ~ 0
 V_Robus
@@ -511,8 +511,6 @@ F 3 "" H 4920 3280 50  0001 C CNN
 $EndComp
 Text Label 4920 2780 2    50   ~ 0
 V_Robus
-Text Label 4420 3080 2    50   ~ 0
-fan_2
 Wire Notes Line
 	6800 3740 3050 3740
 Wire Notes Line
@@ -521,32 +519,6 @@ Wire Notes Line
 	6800 500  6800 3740
 Text Notes 3110 2410 0    50   ~ 10
 Fans Control
-$Comp
-L Common_Lib:R R4
-U 1 1 5E8DA67F
-P 3410 3070
-F 0 "R4" V 3214 3070 50  0000 C CNN
-F 1 "0ohm" V 3305 3070 50  0000 C CNN
-F 2 "Common_Footprint:R_0805" H 3410 3070 50  0001 C CNN
-F 3 "~" H 3440 3090 50  0001 C CNN
-F 4 "Farnell" H 3540 3190 50  0001 C CNN "Fournisseur"
-F 5 "9233750" H 3640 3290 50  0001 C CNN "CodeCommande"
-	1    3410 3070
-	0    1    1    0   
-$EndComp
-$Comp
-L Common_Lib:R R5
-U 1 1 5E8DB789
-P 4520 3080
-F 0 "R5" V 4324 3080 50  0000 C CNN
-F 1 "0ohm" V 4415 3080 50  0000 C CNN
-F 2 "Common_Footprint:R_0805" H 4520 3080 50  0001 C CNN
-F 3 "~" H 4550 3100 50  0001 C CNN
-F 4 "Farnell" H 4650 3200 50  0001 C CNN "Fournisseur"
-F 5 "9233750" H 4750 3300 50  0001 C CNN "CodeCommande"
-	1    4520 3080
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 5E91572D
@@ -560,21 +532,8 @@ F 3 "" H 6070 3290 50  0001 C CNN
 $EndComp
 Text Label 6070 2790 2    50   ~ 0
 V_Robus
-Text Label 5570 3090 2    50   ~ 0
+Text Label 5770 3090 2    50   ~ 0
 fan_3
-$Comp
-L Common_Lib:R R6
-U 1 1 5E915737
-P 5670 3090
-F 0 "R6" V 5474 3090 50  0000 C CNN
-F 1 "0ohm" V 5565 3090 50  0000 C CNN
-F 2 "Common_Footprint:R_0805" H 5670 3090 50  0001 C CNN
-F 3 "~" H 5700 3110 50  0001 C CNN
-F 4 "Farnell" H 5800 3210 50  0001 C CNN "Fournisseur"
-F 5 "9233750" H 5900 3310 50  0001 C CNN "CodeCommande"
-	1    5670 3090
-	0    1    1    0   
-$EndComp
 Text Label 1050 1200 2    50   ~ 0
 fan_3
 Connection ~ 5850 1800
@@ -685,4 +644,6 @@ F 5 "2628088" H 6370 3340 50  0001 C CNN "CodeCommande"
 	1    5970 3090
 	1    0    0    -1  
 $EndComp
+Text Label 4620 3080 2    50   ~ 0
+fan_2
 $EndSCHEMATC

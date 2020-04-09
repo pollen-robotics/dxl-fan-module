@@ -1,4 +1,4 @@
-update=Wednesday, 08 April 2020 at 13:20:02
+update=Thursday, 09 April 2020 at 11:18:32
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=l0_Dynamixel.net
+LastNetListRead=dxl-fan-module.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -88,7 +88,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.15
 SolderMaskMinWidth=0.09999999999999999
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
