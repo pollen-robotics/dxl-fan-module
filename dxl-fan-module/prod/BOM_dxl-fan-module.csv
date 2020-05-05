@@ -1,0 +1,15 @@
+Reference,Quantity,Value,Footprint,Datasheet,CodeCommande,Fournisseur
+C2 C3 C1,3,100nF,Common_Footprint:C_0402_NoSilk,~,1759380,Farnell
+C4,1,"0,47µF",Common_Footprint:C_0402_NoSilk,~,2495316,Farnell
+Con1 Con2 Con3,3,BAT_WIRE,Common_Footprint:JST_PH_B2B-PH-K_02x2.00mm_Straight,~,~,~
+D1,1,5v1,Common_Footprint:D_SOD-323,~,2690036,Farnell
+D2,1,D_Zener,Common_Footprint:D_SOD-323F,~,2777524,Farnell
+J1,Unpopulated,l0_Socket,Common_Footprint:l0_Shield_Socket,~,~,~
+J2,1,DXL,Common_Footprint:XL320_MX,~,9979620,Farnell
+Q1 Q2 Q3,3,PMV25ENEA,Common_Footprint:SOT-23,https://assets.nexperia.com/documents/data-sheet/PMV25ENEA.pdf,2628088,Farnell
+R1 R3,2,10k,Common_Footprint:R_0402_NoSilk,~,2447096,Farnell
+R2,1,150,Common_Footprint:R_0402_NoSilk,~,2447111,Farnell
+TH1,1,100,Common_Footprint:PRG18_RB,https://www.murata.com/products/productdetail?partno=PRG18BB101MB1RB,1115052,Farnell
+U1,1,TPS71550DCKR,Common_Footprint:SC-70-5,Documentations/Alimentation/TPS71550DCKR.pdf,2437748,Farnell
+U2,1,SN74LVC1G126DBVT,Common_Footprint:SOT-23-5,Documentations/Drivers_Ligne/SN74LVC1G125DBVR.pdf,1470738,Farnell
+U3,1,SN74LVC1G125DBVR,Common_Footprint:SOT-23-5,Documentations/Drivers_Ligne/SN74LVC1G125DBVR.pdf,1470768,Farnell
