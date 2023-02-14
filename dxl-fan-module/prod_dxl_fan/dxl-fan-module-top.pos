@@ -1,0 +1,17 @@
+### Module positions - created on Thursday, 09 April 2020 at 11:27:35 ###
+### Printed by Pcbnew version kicad (5.1.5-0)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val               Package                PosX       PosY       Rot  Side
+C1        100nF             C_0402_NoSilk       74.1125   -57.5500  180.0000  top
+C2        100nF             C_0402_NoSilk       71.2125   -59.9500  270.0000  top
+C3        100nF             C_0402_NoSilk       72.3125   -57.6500   90.0000  top
+C4        0,47µF           C_0402_NoSilk       72.3125   -59.9294  270.0000  top
+D1        5v1               D_SOD-323           68.0300   -66.5850  270.0000  top
+D2        D_Zener           D_SOD-323F          77.0500   -62.4250    0.0000  top
+R1        10K               R_0402_NoSilk       71.3125   -61.8500  270.0000  top
+R2        150               R_0402_NoSilk       67.2100   -63.6850   90.0000  top
+R3        10K               R_0402_NoSilk       68.6000   -54.6750  180.0000  top
+U2        SN74LVC1G126DBVT  SOT-23-5            68.7125   -60.8500    0.0000  top
+U3        SN74LVC1G125DBVR  SOT-23-5            68.6880   -57.0500  180.0000  top
+## End
